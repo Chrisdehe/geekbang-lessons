@@ -1,0 +1,27 @@
+# Eclipse
+.classpath
+.project
+.settings/
+ 
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+logs/
+target/
+
+#other
+*.class
+
+#python
+*.bak
+*.pyc
+
+*.log
+Packages/
+test/
+
+#SpringBoot
+config/

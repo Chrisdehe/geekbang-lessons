@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <Resource name="jdbc/UserPlatformDB"
+              type="javax.sql.DataSource"  auth="Container"
+              description="DB Connect"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              username="" password=""
+              driverClassName="org.apache.derby.iapi.jdbc.AutoloadedDriver"
+              url="jdbc:derby:user-platform;create=true"/>
+
+</Context>
